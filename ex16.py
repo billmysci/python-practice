@@ -22,7 +22,7 @@ line3 = input("line 3: ")
 
 print("I'm going to write these to the file.")
 
-target.write(f"""{line1}\n{line2}\n{line3}""")
+target.write(f"{line1}\n{line2}\n{line3}")
 
 print("And finally, we close it.")
 target.close()
